@@ -42,11 +42,10 @@ header div{
     top: 10%;
     left: 31%;
     font-size: 60px;
-    font-family: 'comic sans MS';
-    color: aquamarine;
-}
+    color: #cc0066;
+    font-family: 'Edu SA Beginner', cursive;}
 .absolute__font{
-    color: aqua;
+    color: #00a3a7;
 }
 .absolute__text{
     position: absolute;
@@ -56,15 +55,16 @@ header div{
     }
 .absolute__text p{
     font-size: 15px;
+    line-height: 25px;
 }
 .font1{
-    color: brown;
+    color: #cc0066;
 }
 .font2{
-    color: aqua;
+    color: #00a3a7;
 }
 .font3{
-    color: brown;
+    color: #cc0066;
 }
 ul{
     list-style-type: none;
@@ -76,18 +76,20 @@ ul{
     background: 
 }
 .inner{
-    width: 80%;
+    width: 60%;
     background-color: #fff;
-    margin: 0 auto;
     padding: 65px 0 100px;
-    border-bottom: 1px solid #e6e6e6;
+    margin: 0 auto;
+    
+
 }
+
 .sub_ttl{
     font-size: 30px;
     text-align: left;
     margin-bottom: 15px;
-    font-family: 'comic sans MS';
-    
+    font-family: 'Edu SA Beginner', cursive;
+    color: #990033;
 }
 .sub_ttl-text{
     border-bottom: 1px solid #e6e6e6;
@@ -122,37 +124,58 @@ ul{
     margin-left: 20px;
 }
 .about{
-    background: darkgray;
+    background: #efefef;
     width: 100%;
-    height: 350px;
+    height: 400px;
     margin: 60px auto;
     text-align: center;
 }
 .about__ttl{
-    margin-bottom: 20px;
     font-size: 20px;
+    padding-top: 20px;
     font-weight: bold;
+    font-family:'Edu SA Beginner', cursive;;
+    color: #990033;
+}
+.about__ttl-sub{
+    color: #808080;font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.about__text{
+    display: flex;
 }
 .about__text p{
     font-size: 15px;
+    white-space: nowrap;
+    line-height: 25px;
     }
 
 .about__text p{
-    width: ;
     height: 20px;
-    padding: 40px;
-    margin: 0 0 0 0px;
     text-align: left;
-    
+    margin-left: 40%;
+    margin-top: 20px;
 }
 
-.about__img {
-    width: 1%;
+.about__text img {
+    width: 50%;
     height: 200px;
-    padding: 0px 0px 0px 50px;
-    margin: 0 0 0 aut;
-    text-align: right;
-    display: flex;
+    margin-left: 10%;
+}
+.service__ttl{
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.service__ttl h2{
+    color: #990033;
+}
+.service__ttl h3{
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #a9a9a9;
 }
 .flex__item {
     display: flex;
@@ -160,27 +183,29 @@ ul{
     margin: 50px 150px 0 150px
 
 }
+
 .grid__parent{
     display: grid;
-    grid-template-rows:  300px 300px;
-    grid-template-columns: 3fr 3fr 
+    grid-template-rows:  125px 100px 25px 250px;
+    grid-template-columns: 2fr 2fr 
 }
 .box1{
     grid-column: 2/1;
-    grid-row: 1/3;
-    background: #004e4e;
+    grid-row: 1/5;
+    background: #cc0066;
     position: relative;
     margin-left: 20%;
     margin-bottom: 10%;
 }
-.service__img h2{
-    text-align: center;
+.service__img p{
+    text-align: left;
     margin: 10px;
+    margin-left: 10%;
     color: #FFF;
 }
-.service__img p{
-    margin-top: 30px;
-    margin-left: 10%;
+.service__img h2{
+    margin-top: 20px;
+    margin-left: 40%;
     width: 20%;
     white-space: nowrap;
     color: #fff;
@@ -193,46 +218,59 @@ ul{
 }
 .box2{
     grid-column: 2/3;
-    grid-row: 1/2;
-    background: #008888;
+    grid-row: 1/3;
+    background: #bc64a4;
     margin-right: 20%;
 }
 .service__img-sub{
-    width: 20%;
+    width: 35%;
     display: flex;
-    margin-top: 50px;
-
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 .service__img-sub h2{
     white-space: nowrap;
+    width: 20px;
+    height: 10px;
     margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+    color: #fff;
 }
 .service__img-sub p{
     white-space: nowrap;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 50px;
     text-align: left;
+    line-height: 30px;
+    color: #fff;
 }
 .box3{
     grid-column: 2/3;
-    grid-row: 2/3;
-    background:  #049fd3;
+    grid-row: 3/5;
+    background: #e0b5d3;
     margin-right: 20%;
     margin-bottom: 10%;
 }
 .service__img-sub-second{
-    width: 20%;
+    width: 35%;
     text-align: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .service__img-sub-second p{
     white-space: nowrap;
     margin-top: 40px;
     margin-right: 60px;
+    line-height: 30px;
+    color: #fff;
 }
 .service__img-sub-second h2{
     white-space: nowrap;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
 }
 .practice__card {
     width: 29%;
@@ -275,13 +313,23 @@ ul{
 
 }
 .blog{
-    background: darkgray;
-    height: 600px;
+    background: #efefef;
+    height: 625px;
 }
 .blog__ttl{
-    font-size: 20px;
-    text-align: center;
+    margin-left: 13%;
     padding: 10px;
+    line-height: 40px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.blog__ttl h2 {
+    font-size: 18px;
+    color: #990033;
+}
+.blog__ttl h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #a9a9a9;
 }
 .card__img {
     position: relative;
@@ -292,7 +340,7 @@ ul{
     top: 0;
     left: 0;
     margin: 0;
-    background: red;
+    background: #990033;
     font-size: px;
     line-height: 1;
     padding: 10px 15px;
@@ -302,13 +350,25 @@ ul{
 .practice__btn {
     width: 200px;
     padding: 10px 0;
-    color: red;
+    color: #cc0066;
     border-radius: 30px;
     background: #fff;
     text-align: center;
     margin: 60px auto 0;
     display: block;
-    border: 1px solid red;
+    border: 1px solid #cc0066;
+}
+.company__ttl{
+    margin: 20px 20px 20px 25%;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.company__ttl h2{
+    color: #cc0066;
+}
+.company__ttl h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #a9a9a9;
 }
 .kaisha {
     width: 50%;
@@ -331,7 +391,7 @@ ul{
 
 .kaisha th {
     font-weight: bold;
-    background-color: #dedede;
+    background-color: #efefef;
 }
 .mv {
     display: flex;
@@ -375,6 +435,8 @@ ul{
 .btn h3{
     position: relative;
     top: 20px;
+    color: #808080;
+    margin-top: 20px;
 }
 
 .btn h2::before {
@@ -382,19 +444,19 @@ ul{
     display: inline-block;
     width: 3px;
     height: 40px;
-    background-color: red;
+    background-color: #cc0066;
     position: absolute;
     text-align: center;
     margin-top: 40px;
 }
 .secoud__btn {
     width: 250px;
-    height: 4３px;
+    height: 43px;
     padding: 10px 0;
     color: #fff;
     border-radius: 30px;
-    background: red;
-    box-shadow: linear-gradient(red);
+    background: linear-gradient(#ff0f7f, #ff0a84, #cc0066);
+    box-shadow: 1px 8px 1px #990033;
     margin: 100px auto 0;
     display: block;
     position: relative;
@@ -405,7 +467,6 @@ ul{
     text-align: center;
     font-size: 18px;
     margin: 10px;
-
 }
 
 .secoud__btn-sub {
@@ -417,7 +478,7 @@ ul{
 
 footer p {
     text-align: center;
-    background: #008888;
+    background: #efefef;
     padding: 20px;
     margin-top: 20px;
 }
