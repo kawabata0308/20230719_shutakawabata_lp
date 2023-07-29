@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
     color: grey;
+    width: 100%;
 }
 header div{
         display: flex;
@@ -154,14 +155,16 @@ ul{
 .about__text p{
     height: 20px;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 75%;
     margin-top: 20px;
+    
 }
 
-.about__text img {
-    width: 50%;
-    height: 200px;
-    margin-left: 16%;
+.about__text-img {
+    width: 20%;
+    height: 20%;
+    margin-left: 31%;
+    margin-top: 10px;
 }
 .service__ttl{
     line-height: 30px;
@@ -204,7 +207,7 @@ ul{
     color: #FFF;
 }
 .service__img h2{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 40%;
     width: 20%;
     white-space: nowrap;
@@ -223,10 +226,10 @@ ul{
     margin-right: 22%;
 }
 .service__img-sub{
-    width: 33%;
+    width: 32%;
     display: flex;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .service__img-sub h2{
     white-space: nowrap;
@@ -299,7 +302,7 @@ ul{
 
 
 .tag {
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
 
 }
@@ -405,10 +408,10 @@ ul{
 
 .mv__sub {
     position: relative;
-    left: 20px;
+    
 }
 .mv__sub img{
-    width: 125%;
+    width: 100%;
 }
 
 .mv__sub p {
@@ -421,17 +424,17 @@ ul{
 
 .mv__sub-ttl {
     position: relative;
+    width: 100%;
 }
 .mv__sub-ttl img{
-    width: 125%;
-
+width: 100%;
 }
 .mv__sub-ttl p {
     position: absolute;
     color: #fff;
     font-size: 30px;
     top: 40%;
-    left: 50%;
+    left: 30%;
 }
 .btn {
     text-align: center;
