@@ -154,14 +154,14 @@ ul{
 .about__text p{
     height: 20px;
     text-align: left;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-top: 20px;
 }
 
 .about__text img {
     width: 50%;
     height: 200px;
-    margin-left: 10%;
+    margin-left: 16%;
 }
 .service__ttl{
     line-height: 30px;
@@ -180,7 +180,7 @@ ul{
 .flex__item {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px 0 150px
+    margin: 50px 100px 0 150px
 
 }
 
@@ -200,7 +200,7 @@ ul{
 .service__img p{
     text-align: left;
     margin: 10px;
-    margin-left: 10%;
+    margin-left: 12%;
     color: #FFF;
 }
 .service__img h2{
@@ -220,55 +220,57 @@ ul{
     grid-column: 2/3;
     grid-row: 1/3;
     background: #bc64a4;
-    margin-right: 20%;
+    margin-right: 22%;
 }
 .service__img-sub{
-    width: 35%;
+    width: 33%;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 10px;
 }
 .service__img-sub h2{
     white-space: nowrap;
     width: 20px;
     height: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 20px;
-    text-align: left;
     color: #fff;
+    text-align: left;
 }
 .service__img-sub p{
     white-space: nowrap;
-    margin-top: 50px;
-    text-align: left;
+    margin-top: 20px;
     line-height: 30px;
     color: #fff;
+    text-align: left;
+    font-weight: 200;
 }
 .box3{
     grid-column: 2/3;
     grid-row: 3/5;
     background: #e0b5d3;
-    margin-right: 20%;
+    margin-right: 22%;
     margin-bottom: 10%;
 }
 .service__img-sub-second{
-    width: 35%;
+    width: 33%;
     text-align: center;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .service__img-sub-second p{
     white-space: nowrap;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 60px;
     line-height: 30px;
     color: #fff;
+    font-weight: 200;
 }
 .service__img-sub-second h2{
     white-space: nowrap;
     width: 10px;
     height: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
     color: #fff;
 }
@@ -297,24 +299,27 @@ ul{
 
 
 .tag {
-    font-size: 14px;
+    font-size: 12px;
+    display: flex;
 
 }
 
 .card__tag {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 30%;
     color: #008888;
-
+   
 }
 
 .card__date {
     display: inline-block;
 
+
 }
 .blog{
     background: #efefef;
-    height: 625px;
+    height: 630px;
+    width: 100%;
 }
 .blog__ttl{
     margin-left: 13%;
@@ -354,7 +359,7 @@ ul{
     border-radius: 30px;
     background: #fff;
     text-align: center;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     display: block;
     border: 1px solid #cc0066;
 }
@@ -403,7 +408,7 @@ ul{
     left: 20px;
 }
 .mv__sub img{
-    width: 100%;
+    width: 125%;
 }
 
 .mv__sub p {
@@ -418,7 +423,7 @@ ul{
     position: relative;
 }
 .mv__sub-ttl img{
-    width: 100%;
+    width: 125%;
 
 }
 .mv__sub-ttl p {
@@ -426,7 +431,7 @@ ul{
     color: #fff;
     font-size: 30px;
     top: 40%;
-    left: 30%;
+    left: 50%;
 }
 .btn {
     text-align: center;
